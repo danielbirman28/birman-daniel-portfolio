@@ -1,0 +1,9 @@
+function toggleMenu() {
+    // targeting these two elements
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+
+    // when clicked, either add or remove open class in that element, has styling
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+}
